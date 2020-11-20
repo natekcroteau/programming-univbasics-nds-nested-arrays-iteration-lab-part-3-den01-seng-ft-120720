@@ -8,7 +8,7 @@ the_integers = []
     inner_index = 0 
     while inner_index < src[outer_index].count do
       
-      if src[outer_index][inner_index] == ""
+      if src[outer_index][inner_index].include?("")
         
         all_the_strings << src[outer_index][inner_index]
       else src[outer_index][inner_index] > 0 
