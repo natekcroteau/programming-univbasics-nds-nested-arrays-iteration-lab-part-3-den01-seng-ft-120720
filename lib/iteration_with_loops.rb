@@ -7,7 +7,7 @@ all_the_strings = []
     inner_index = 0 
     while inner_index < src[outer_index].count do
       
-      if src[outer_index][inner_index].is_a? integer 
+      if src[outer_index][inner_index]
         
         all_the_strings << src[outer_index][inner_index]
       
