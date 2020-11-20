@@ -17,5 +17,6 @@ all_the_strings = []
     end
   outer_index += 1 
   end
+all_the_strings.delete(integer)
 all_the_strings.join(" ")
 end 
