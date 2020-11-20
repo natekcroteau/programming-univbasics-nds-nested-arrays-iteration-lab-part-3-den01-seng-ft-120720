@@ -8,7 +8,8 @@ all_the_strings = []
     while inner_index < src[outer_index].count do
       
       if src[outer_index][inner_index]
-        all_the_strings << src[outer_index][inner_index]
+        
+        all_the_strings +=  src[outer_index][inner_index]
       
       end
     inner_index += 1 
