@@ -9,7 +9,7 @@ all_the_strings = []
       
       if src[outer_index][inner_index]
         
-        all_the_strings +=  src[outer_index][inner_index]
+        all_the_strings << src[outer_index][inner_index]
       
       end
     inner_index += 1 
