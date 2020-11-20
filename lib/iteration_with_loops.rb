@@ -2,15 +2,17 @@ def join_nested_strings(src)
 
 outer_index = 0 
 all_the_strings = []
+the_integers = []
 
   while outer_index < src.count do 
     inner_index = 0 
     while inner_index < src[outer_index].count do
       
-      if src[outer_index][inner_index].include? ""
+      if src[outer_index][inner_index].include?
         
         all_the_strings << src[outer_index][inner_index]
-      
+      else src[outer_index][inner_index] > 0 
+        the_integers << src[outer_index][inner_index]
       end
     inner_index += 1 
     end
